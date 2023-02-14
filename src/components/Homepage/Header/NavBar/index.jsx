@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./NavBar.module.scss";
-
+import { ReactComponent as Basket } from "../../../../asssets/images/somestuff/basket.svg";
 const NavBar = () => {
   return (
     <div className={style.NavBar}>
@@ -24,7 +24,7 @@ const NavBar = () => {
         <a href="/#" className={style.login}>
           Войти
         </a>
-        <a href="/#" className={style.trash}></a>
+        <a href="/#" className={style.trash}><Basket/></a>
       </div>
     </div>
   );

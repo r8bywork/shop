@@ -1,0 +1,33 @@
+.Contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.tel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tel a{
+  padding: 15px;
+  display: flex;
+  text-align: center;
+  background: #F7F7F7;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 9px;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts a {
+  margin-left: 15px;
+}
