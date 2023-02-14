@@ -1,0 +1,36 @@
+.InfoBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.percent {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.old_price {
+  text-decoration: line-through;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 200%;
+  color: #1d4354;
+  margin-right: 10px;
+}
+
+.new_price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #14a800;
+}
