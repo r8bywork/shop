@@ -1,0 +1,58 @@
+.NavBar {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu_list {
+  display: flex;
+}
+
+.menu_list li {
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+.header_btn {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  padding: 7px;
+  border: 2px solid #a1b6bd;
+  border-radius: 7px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.trash {
+  padding-right: 40px;
+  padding-top: 40px;
+  border-radius: 7px;
+  background: #1d4354;
+  margin-left: 16px;
+}
+
+.menu a:hover {
+  transition: 0.5s;
+  color: #14a800;
+}
