@@ -11,3 +11,23 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 900px) {
+  .Homepage {
+    display: block;
+  }
+  .right {
+    align-items: center;
+  }
+}
+@media (max-width: 599px) {
+  .Homepage img {
+    width: 160px;
+  }
+  .Homepage {
+    display: flex;
+  }
+  .right {
+    align-items: center;
+  }
+}

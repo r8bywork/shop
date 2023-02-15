@@ -11,7 +11,8 @@ const InfoBlock = () => {
           <span className={style.old_price}>5567 грн</span>
           <span className={style.new_price}>4567 грн</span>
         </div>
-        <h1>Название товара</h1>
+        <h1 className={style.name}>Название товара</h1>
+        <Button/>
       </div>
       <div className={style.photo}>
         <img src={Info1} alt="info_block" />

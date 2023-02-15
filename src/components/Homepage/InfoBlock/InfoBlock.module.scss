@@ -1,6 +1,7 @@
 .InfoBlock {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .info {
@@ -33,4 +34,46 @@
   font-size: 45px;
   line-height: 50px;
   color: #14a800;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 21px;
+}
+
+@media (max-width: 946px) {
+  .InfoBlock {
+    flex-direction: column-reverse;
+  }
+
+  .photo img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 946px) {
+  .old_price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .new_price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .percent {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .name {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+  }
 }

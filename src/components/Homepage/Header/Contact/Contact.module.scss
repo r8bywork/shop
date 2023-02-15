@@ -31,3 +31,9 @@
 .contacts a {
   margin-left: 15px;
 }
+
+@media (max-width: 600px) {
+  .Contact {
+    display: none;
+  }
+}

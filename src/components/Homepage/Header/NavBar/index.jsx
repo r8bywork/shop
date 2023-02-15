@@ -24,7 +24,12 @@ const NavBar = () => {
         <a href="/#" className={style.login}>
           Войти
         </a>
-        <a href="/#" className={style.trash}><Basket/></a>
+        <a href="/#" className={style.trash}>
+          <Basket />
+        </a>
+      </div>
+      <div class={style.menu__btn}>
+        <span></span>
       </div>
     </div>
   );
