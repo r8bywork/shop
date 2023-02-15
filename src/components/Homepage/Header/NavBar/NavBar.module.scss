@@ -1,6 +1,5 @@
 .NavBar {
   display: flex;
-  // align-content: center;
   justify-content: flex-end;
 }
 
@@ -45,10 +44,14 @@ body {
 }
 
 .trash {
-  padding: 10px;
+  padding: 14px;
   border-radius: 7px;
   background: #1d4354;
   margin-left: 16px;
+}
+
+.trash svg {
+  display: flex;
 }
 
 .menu a:hover {

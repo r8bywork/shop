@@ -28,7 +28,7 @@ const NavBar = () => {
           <Basket />
         </a>
       </div>
-      <div class={style.menu__btn}>
+      <div className={style.menu__btn}>
         <span></span>
       </div>
     </div>
