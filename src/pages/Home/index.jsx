@@ -1,4 +1,5 @@
 import React from 'react'
+import Delivery from '../../components/Delivery'
 import Category from '../../components/Homepage/Category'
 import Header from '../../components/Homepage/Header'
 import InfoBlock from '../../components/Homepage/InfoBlock'
@@ -9,7 +10,8 @@ const Home = () => {
     <div className={style.Home}>
       <Header/> 
       <InfoBlock/> 
-      <Category/>    
+      <Category/>  
+      <Delivery/>  
     </div>
   )
 }
