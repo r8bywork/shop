@@ -1,57 +1,42 @@
-
-body {
-  font-size: 16px;
-  line-height: 22px;
-  text-transform: uppercase;
+* {
+	margin: 0;
+	font-family: "Josefin Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 17px;
+	padding: 0;
+	box-sizing: border-box;
 }
-
 
 .Card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background: #ffffff;
-  box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.11);
-  border-radius: 20px;
-  position: relative;
-  // margin-right: 5px;
-}
-// :before
-.circle {
-  content: "";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 0px;
-  transform:translate(50%,0%);
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #6E8C97;
-  // box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.11);
+	width: 400px;
+	height: 382px;
+	border: 1px solid black;
+	margin: 14px;
+	padding: 15px;
+	border: 1px solid #f3f3f3;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
 }
 
-.circle svg {
-  display: flex;
-  text-align: center;
+.Card:hover {
+	transform: scale(105%);
+  box-shadow: 0px 0px 50px #f3f3f3;
 }
 
-.Card img {
-  margin-right: 15px;
+.ShopBack {
+	background-color: #f3fbf7;
+}
+.cardText {
+	padding-top: 10px;
 }
 
-.text {
-  display: flex;
-  flex-direction: column;
-  margin-right: 35px;
+.Image {
+	width: 100%;
+	height: 250px;
+	object-fit: contain;
 }
 
-.MainText {
-  font-weight: 700;
-}
-
-.SecText {
-  font-weight: 400;
+.rating {
+	margin: 5px 0;
 }

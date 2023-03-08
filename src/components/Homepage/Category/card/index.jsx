@@ -1,20 +1,24 @@
 import React from "react";
 import style from "./Card.module.scss";
-import Test from "../../.../../../../asssets/images/somestuff/card/test.png";
-import {ReactComponent as Arrow} from "../../.../../../../asssets/images/somestuff/mini/array_right.svg";
+import shoes from "../../../../asssets/images/somestuff/card/shoes.png";
+
 const Card = () => {
-  return (
-    <div className={style.Card}>
-      <img src={Test} alt="" />
-      <div className={style.text}>
-        <span className={style.MainText}>Ревизионные люки</span>
-        <span className={style.SecText}>на пол, стену, потолок</span>
-      </div>
-      <div className={style.circle}>
-        <Arrow/>
-      </div>
-    </div>
-  );
+	return (
+		<div className={style.Card}>
+			<a href="/">
+				<div className={style.ShopBack}>
+					<img src={shoes} alt="shoes" className={style.Image} />
+				</div>
+			</a>
+			<div className={style.cardText}>
+				<a href="/">
+					<p className={style.title}>New 2022 from zpunet</p>
+				</a>
+				<div className={style.rating}>Rating and views</div>
+				<h3 className={style.title}>$300</h3>
+			</div>
+		</div>
+	);
 };
 
 export default Card;

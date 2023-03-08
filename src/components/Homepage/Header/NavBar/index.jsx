@@ -7,22 +7,22 @@ const NavBar = () => {
       <nav className={style.menu}>
         <ul className={style.menu_list}>
           <li className={style.menu_item}>
-            <a href="/#">Главная</a>
+            <a href="/#">Main</a>
           </li>
           <li className={style.menu_item}>
-            <a href="/#">Оплата</a>
+            <a href="/#">Payment</a>
           </li>
           <li className={style.menu_item}>
-            <a href="/#">Доставка</a>
+            <a href="/#">Delivery</a>
           </li>
           <li className={style.menu_item}>
-            <a href="/#">Контакты</a>
+            <a href="/#">Contact Us</a>
           </li>
         </ul>
       </nav>
       <div className={style.header_btn}>
         <a href="/#" className={style.login}>
-          Войти
+          Login
         </a>
         <a href="/#" className={style.trash}>
           <Basket />
